@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgb(248, 0, 50);
+    height: 70px;
+    color: #f0f8ff;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.header-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-right a{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    gap: 10px;
+}

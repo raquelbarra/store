@@ -1,0 +1,42 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .images {
+    max-width: 40%;
+    margin: 20px;
+  }
+  
+  .texts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: start;
+    height: 70vh;
+    justify-content: flex-start;
+    max-width: 40%;
+  }
+  
+  p {
+    margin: 10px;
+    line-height: 1.5;
+  }
+
+  .title {
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  .price {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: green;
+  }
+
+  .description {
+    font-size: x-large;
+    font-weight: normal;
+  }
